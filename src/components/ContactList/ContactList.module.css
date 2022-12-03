@@ -1,0 +1,27 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 450px;
+}
+
+.item {
+  display: flex;
+  font-size: 12px;
+}
+
+.delete {
+  width: 100px;
+  margin-left: auto;
+  background-color: #003d83;
+  color: rgba(238, 174, 202, 1);
+  outline: none;
+  border: 1px solid #003d83;
+  border-radius: 3px;
+  transition: all 250ms linear;
+}
+
+.delete:hover {
+  background-color: rgba(238, 174, 202, 1);
+  color: #003d83;
+}

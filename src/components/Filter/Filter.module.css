@@ -1,0 +1,16 @@
+.input {
+  width: 200px;
+  margin-bottom: 20px;
+  background-color: transparent;
+  outline: none;
+  border: 1px solid #003d83;
+  border-radius: 3px;
+}
+
+.input::placeholder {
+  font-size: 10px;
+}
+
+.input:focus {
+  border-style: dashed;
+}

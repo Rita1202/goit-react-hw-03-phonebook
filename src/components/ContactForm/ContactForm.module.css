@@ -1,0 +1,38 @@
+.form {
+  /* width: 100%; */
+  color: blue;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input {
+  width: 200px;
+  background-color: transparent;
+  outline: none;
+  border: 1px solid #003d83;
+  border-radius: 3px;
+}
+
+.input::placeholder {
+  font-size: 10px;
+}
+
+.input:focus {
+  border-style: dashed;
+}
+
+.add {
+  width: 100px;
+  background-color: #003d83;
+  color: rgba(238, 174, 202, 1);
+  outline: none;
+  border: 1px solid #003d83;
+  border-radius: 3px;
+  transition: all 250ms linear;
+}
+
+.add:hover {
+  background-color: rgba(238, 174, 202, 1);
+  color: #003d83;
+}
